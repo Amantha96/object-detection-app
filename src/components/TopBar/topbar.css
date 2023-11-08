@@ -1,0 +1,15 @@
+.container {
+  justify-content: center;
+  display: flex;
+}
+
+.topBar {
+  margin-top: 10px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0 0 5px rgba(20, 46, 110, 0.4);
+}
