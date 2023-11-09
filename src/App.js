@@ -1,26 +1,19 @@
 import './App.css';
-import { Grid } from '@mui/material';
 import TopBar from './components/TopBar/TopBar';
 import MiddleBox from './components/MiddleBox/Middlebox';
 
 
 function App() {
   return (
-    <Grid>
-
-      <Grid>
+    <div >
+      <div>
         <TopBar />
-      </Grid>
-
-
-      <Grid >
+      </div>
+      <div>
         <MiddleBox />
-      </Grid>
+      </div>
+    </div>
 
-
-
-
-    </Grid>
   );
 }
 

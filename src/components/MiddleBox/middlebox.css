@@ -6,15 +6,16 @@
 }
 
 .middlebox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 25px;
   background-color: #292929;
   width: 600px;
-  height: 400px;
+  height: 500px;
   border-radius: 20px;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow:  0 0 5px rgba(162, 162, 160, 0.8);
 }
 
 .text > h1 {
@@ -33,10 +34,28 @@
 }
 
 .yellowbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 25px;
   background-color: #ffd482;
   width: 200px;
   height: 200px;
   border-radius: 20px;
   margin-top: 30px;
+}
+
+.uploadbtn {
+  padding: 15px;
+  background-color: #ffd482;
+  width: 250px;
+  margin-top: 35px;
+  font-family: "Ropa Sans";
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+
+.uploadbtn:hover {
+  background-color: #ffbc40;
 }
